@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Королёв Алексей Викторович - Data Analyst</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css  ">
+    <title>Королёв Алексей Викторович - Data Scientist / ML Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
             margin: 0;
@@ -410,13 +410,13 @@
         function switchLang(lang) {
             const langButtons = document.querySelectorAll('.lang-btn');
             const langContents = document.querySelectorAll('.lang-content');
-            
+
             langButtons.forEach(btn => btn.classList.remove('active'));
             langContents.forEach(content => content.classList.remove('active'));
-            
+
             document.querySelector(`[onclick="switchLang('${lang}')"]`).classList.add('active');
             document.getElementById(`lang-${lang}`).classList.add('active');
-            
+
             document.documentElement.lang = lang;
         }
 
@@ -450,225 +450,16 @@
                 </div>
             </div>
             <h1>Королёв Алексей Викторович</h1>
-            <div class="position">Data Scientist / Machine Learning Engineer</div>
-            
-            <div class="contact-bar">
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Москва</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-birthday-cake"></i>
-                    <span>35 лет</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:+79031899298">+7 (903) 189-92-98</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:gid89@inbox.ru">gid89@inbox.ru</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-telegram"></i>
-                    <a href="https://t.me/aleksey1989god  " target="_blank">@aleksey1989god</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <a href="https://github.com/Aleksey1989god/U-32mg8-cw0UR-  " target="_blank">GitHub</a>
-                </div>
-            </div>
-
-            <div class="action-buttons">
-                <a href="#" class="btn" onclick="downloadPDF('ru'); return false;">
-                    <i class="fas fa-download"></i> Скачать PDF
-                </a>
-                <a href="https://t.me/aleksey1989god  " class="btn">
-                    <i class="fab fa-telegram"></i> Связаться
-                </a>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="content">
-                <section class="section">
-                    <h2 class="section-title">О себе</h2>
-                    <div class="about-text">
-                        <p>В настоящий момент прохожу углублённое обучение в Школе 21 (Сбер) по программе Data Science с фокусом на практическое применение ML/DL, участие в хакатонах и цифровых чемпионатах.</p>
-                        <p>Самостоятельно изучаю Transformers, LLM, VLM, Docker, разрабатываю чат-ботов и экспериментирую с fine-tuning моделей. Участник хакатонов и чемпионатов, интегрирую ML модель в свой телеграм бот с реализацией дообучения внутри сервиса.</p>
-                        <p>Веду активный образ жизни: бокс, бег, альпинизм, трекинг. Имею водительские права категории A, B.</p>
-                    </div>
-                </section>
-
-                <section class="section">
-                    <h2 class="section-title">Опыт работы</h2>
-                    
-                    <div class="timeline-item">
-                        <div class="timeline-header">
-                            <div class="company-name">ООО «ПроШкола» (дочерняя компания ВЭБ.РФ)</div>
-                            <div class="position-name">Главный специалист</div>
-                            <div class="period">Март 2023 — Март 2025 (2 года 1 месяц)</div>
-                        </div>
-                        <div class="description">
-                            <ul>
-                                <li>Разработал и внедрил Telegram-бота для учёта дефектов на объектах строительства, который заменил бумажные отчёты.</li>
-                                <li>Собрал требования у инженеров, прорабов и руководителей проектов.</li>
-                                <li>Спроектировал логику заполнения данных через пошаговый интерфейс (FSM).</li>
-                                <li>Реализовал экспорт данных в DOCX с помощью python-docx, что позволило автоматизировать подготовку отчётной документации.</li>
-                                <li>Обеспечил загрузку до 5 фото на каждый дефект и валидацию ввода.</li>
-                                <li>Результат: сокращено время на составление дефектных ведомостей на 40%, снижена ошибка при передаче данных.</li>
-                                <li>Создал многофункционального Telegram-бота как информационный хаб для сотрудников разных департаментов (финансы, юристы, строители).</li>
-                                <li>Интегрировал бота с Google Sheets через API (gspread) для предоставления актуальных метрик.</li>
-                                <li>Настроил автоматический парсинг и форматирование данных из таблиц.</li>
-                                <li>Организовал доступ к данным по ролям пользователей.</li>
-                                <li>Результат: централизованное информационное пространство, сокращение запросов к аналитикам на 60%.</li>
-                                <li>Достижение: Участвовал в реализации проекта Цифровизация управления образовательной инфраструктурой (ООО ПроШкола) (партнер — Comindware) в роли функционального методолога.</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </section>
-
-                <section class="section">
-                    <h2 class="section-title">Pet-проекты</h2>
-
-                    <div class="projects-grid">
-                        <div class="project-card">
-                            <div class="project-title">Telegram-бот для учета дефектов</div>
-                            <div class="project-desc">
-                                <p>Многофункциональный бот с FSM, интеграцией SQLite, генерацией DOCX-отчетов. Технологии: aiogram 3.x, asyncio, aiosqlite, python-docx, gspread.</p>
-                                <a href="https://github.com/Aleksey1989god/U-32mg8-cw0UR-" target="_blank" class="project-link">
-                                    <i class="fab fa-github"></i> Посмотреть на GitHub
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="project-card">
-                            <div class="project-title">Filter Tree UI - Конструктор логических фильтров</div>
-                            <div class="project-desc">
-                                <p>Веб-приложение для создания и управления деревьями логических фильтров с поддержкой операторов AND/OR, интеграцией с OpenAPI схемами и возможностью тестирования фильтров в реальном времени.</p>
-                                <a href="https://github.com/Aleksey1989god/v0-filter-tree-ui" target="_blank" class="project-link">
-                                    <i class="fab fa-github"></i> Посмотреть на GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="section">
-                    <h2 class="section-title">Образование</h2>
-                    
-                    <div class="education-card">
-                        <div class="company-name">Московский государственный строительный университет</div>
-                        <div class="period">2013</div>
-                        <div class="description">
-                            Институт гидротехнического и энергетического строительства<br>
-                            Профиль: Промышленное и гражданское строительство, САПР
-                        </div>
-                    </div>
-                    <div class="education-card">
-                        <div class="company-name">Школа 21 (Сбер) Data Science</div>
-                        <div class="period">2025</div>
-                        <div class="description">
-                            Программа:<br>
-                            UNIX Command Line Tools, Syntax&Semantics, OOP skills, Package management, Efficient code practices, <br>
-                            MovieLens Analytics, Pandas, SQL&Pandas, Pandas_SQL& Data Visual, Intro to ML, ML: Advanced
-                        </div>
-                    </div>
-                </section>
-
-                <section class="section">
-                    <h2 class="section-title">Сертификаты и курсы</h2>
-                    
-                    <div class="certificates-grid">
-                        <div class="certificate-card">
-                            <div class="certificate-year">2025</div>
-                            <div class="certificate-title">Хакатон 2GIS</div>
-                            <div class="certificate-org">Трек: Городские данные — умный город своими руками.</div>
-                        </div>
-
-                        <div class="certificate-card">
-                            <div class="certificate-year">2025</div>
-                            <div class="certificate-title">Хакатон IT_ONE Cup. Code & Analyst</div>
-                            <div class="certificate-org">Трек: Сервис для анализа финансовых транзакций в режиме реального времени с компонентной архитектурой правил обнаружения мошенничества, поддержкой различных алгоритмов обработки и мониторингом.</div>
-                        </div>
-
-                        <div class="certificate-card">
-                            <div class="certificate-year">2025</div>
-                            <div class="certificate-title">Искусственный интеллект</div>
-                            <div class="certificate-org">
-                                <p>BootcampLabs</p>
-                                <p>LLM на примере GigaChat</p>
-                                <p>AI-агенты</p>
-                                <p>Создание ИТ-сервиса</p>
-                            </div>
-                        </div>
-
-                        <div class="certificate-card">
-                            <div class="certificate-year">2025</div>
-                            <div class="certificate-title">Process Mining</div>
-                            <div class="certificate-org">АНО ДПО «Корпоративный университет Сбербанка»</div>
-                        </div>
-
-                        <div class="certificate-card">
-                            <div class="certificate-year">2025</div>
-                            <div class="certificate-title">BPM-проект года'2025</div>
-                            <div class="certificate-org">Лауреат конкурса за проект цифровизации ООО ПроШкола</div>
-                        </div>
-
-                        <div class="certificate-card">
-                            <div class="certificate-year">2021</div>
-                            <div class="certificate-title">Flutter разработка</div>
-                            <div class="certificate-org">УГНТУ - Кросс-платформенные приложения iOS/Android</div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="section">
-                    <h2 class="section-title">Навыки</h2>
-                    <div class="skills-container">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">PyTorch</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">aiogram</span>
-                        <span class="skill-tag">aiosqlite</span>
-                        <span class="skill-tag">Transformers</span>
-                        <span class="skill-tag">LLM / VLM</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">FSM</span>
-                        <span class="skill-tag">asyncio</span>
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">Agile</span>
-                        <span class="skill-tag">Google Sheets API</span>
-                        <span class="skill-tag">Process Mining</span>
-                        <span class="skill-tag">python-docx</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">gspread</span>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </div>
-
-    <!-- English Version -->
-    <div id="lang-en" class="lang-content">
-        <div class="header">
-            <div class="photo-container">
-                <div class="photo-placeholder">
-                    <img src="https://raw.githubusercontent.com/Aleksey1989god/resume/main/images/avatar.jpg" alt="Alexey Korolyov" style="width:100%; height:100%; border-radius: 50%; object-fit: cover;">
-                </div>
-            </div>
-            <h1>Alexey Korolyov</h1>
-            <div class="position">Data Scientist / Machine Learning Engineer</div>
+            <div class="position">System Analyst / Data Scientist</div>
 
             <div class="contact-bar">
                 <div class="contact-item">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Moscow</span>
+                    <span>Москва, м. Братиславская</span>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-birthday-cake"></i>
-                    <span>35 years old</span>
+                    <span>35 лет, родился 24 декабря 1989</span>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-phone"></i>
@@ -684,7 +475,282 @@
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-github"></i>
-                    <a href="https://github.com/Aleksey1989god/U-32mg8-cw0UR-" target="_blank">GitHub</a>
+                    <a href="https://github.com/Aleksey1989god" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <a href="#" class="btn" onclick="downloadPDF('ru'); return false;">
+                    <i class="fas fa-download"></i> Скачать PDF
+                </a>
+                <a href="https://t.me/aleksey1989god" class="btn">
+                    <i class="fab fa-telegram"></i> Связаться
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <section class="section">
+                    <h2 class="section-title">О себе</h2>
+                    <div class="about-text">
+    <p>Я специалист по данным с техническим бэкграундом и практическим опытом разработки решений на стыке данных, автоматизации и инфраструктуры. В настоящее время прохожу обучение в Школе 21 (Сбер) по направлению Data Science.</p>
+
+    <p>Имею практический опыт работы со следующими инструментами и технологиями:</p>
+
+    <ul>
+        <li>Базовое понимание JSON, умею читать спецификации OpenAPI (Swagger)</li>
+        <li>В рамках хакатонов имею опыт работы с GET-, POST-, PUT- и DELETE-запросами для тестирования и отладки RESTful API</li>
+        <li><strong>scikit-learn</strong> — применяю для построения и оценки моделей машинного обучения: обучал логистическую регрессию, модели метода опорных векторов (SVC), деревья решений (DecisionTreeClassifier) и ансамбли на основе случайного леса (RandomForestClassifier). Работал с предобработкой признаков, подбором гиперпараметров, кросс-валидацией и оценкой качества моделей с использованием метрик классификации</li>
+        <li><strong>NumPy</strong> — активно использую для эффективной работы с многомерными массивами и матрицами в процессе подготовки данных и обучения моделей scikit-learn: создание и преобразование тензоров признаков, генерация сеток для визуализации границ решений, манипуляции с числовыми данными на уровне массивов</li>
+        <li><strong>Pandas</strong> — применяю для реализации полного цикла обработки данных: извлечение (Extract), трансформация (Transform) и загрузка (Load). Работал с очисткой, фильтрацией, агрегацией и обогащением данных, а также с обработкой пропущенных значений и дубликатов</li>
+        <li><strong>SQL</strong> — уверенно использую для написания сложных запросов, включая объединения таблиц (JOIN), группировку данных (GROUP BY), сортировку (ORDER BY), а также вложенные подзапросы. Имею опыт оптимизации запросов и работы с реляционными базами данных</li>
+        <li><strong>Визуализация данных</strong> — строю информативные и наглядные графики с помощью библиотек matplotlib и seaborn: от простых линейных и столбчатых диаграмм до распределений, тепловых карт корреляций, boxplots и множественных subplot-ов для комплексного анализа</li>
+        <li><strong>PostgreSQL</strong> — активно использую как надёжную и мощную реляционную СУБД для хранения, анализа и управления структурированными данными. Имею опыт проектирования схем базы данных с учётом нормализации, а также создания и оптимизации таблиц, индексов и внешних ключей</li>
+    </ul>
+
+    <p>Самостоятельно изучаю Transformers, LLM, VLM, пишу асинхронных Телеграм чат-ботов. Участник хакатонов и чемпионатов: hackathon 2gis (Трек — Городские данные — умный город своими руками), IT_ONE Cup. Code & Analyst (Трек — Финансовый радар).</p>
+    <p>Веду активный образ жизни: бег, альпинизм, трекинг. Есть водительские права категории A, B.</p>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Опыт работы</h2>
+
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <div class="company-name">ООО «ПроШкола» (дочерняя структура ВЭБ.РФ)</div>
+                            <div class="position-name">Главный специалист</div>
+                            <div class="period">Март 2023 — Март 2025 (2 года 1 месяц)</div>
+                        </div>
+                        <div class="description">
+                            <ul>
+                                <li>Разработал и внедрил дашборды в Power BI для визуализации количества дефектов, выявленных при приемке объектов, по заказу концедента. Собрал требования от технических специалистов и руководства, спроектировал модель данных и реализовал интерактивные визуализации: динамика по времени, распределение по типам, локациям и подрядчикам, рейтинг проблемных участков. Обеспечил фильтрацию и детализацию по проектам и этапам строительства.</li>
+                                <li>Результат: оперативный контроль качества работ, сокращение времени на анализ дефектной ситуации на 30% и повышение прозрачности взаимодействия с подрядчиками.</li>
+                                <li>Разработал и внедрил Telegram-бота для учёта дефектов на объектах строительства, который заменил бумажные отчёты. Собрал требования у инженеров, прорабов и руководителей проектов. Спроектировал логику заполнения данных через пошаговый интерфейс (FSM).</li>
+                                <li>Реализовал экспорт данных в DOCX с помощью python-docx, что позволило автоматизировать подготовку отчётной документации. Построил пайплайн сбора и обогащения данных: пользователи загружают изображения дефектов + текст → данные сохраняются в SQLite → экспортируются в структурированный .docx (через python-docx).</li>
+                                <li>Обеспечил загрузку до 5 фото на каждый дефект и валидацию ввода. Результат: сокращено время на составление дефектных ведомостей на 40%, снижена ошибка при передаче данных.</li>
+                                <li>Создал многофункционального Telegram-бота как информационный хаб для сотрудников разных департаментов (финансы, юристы, строители). Интегрировал бота с Google Sheets через API (gspread) для предоставления актуальных метрик.</li>
+                                <li>Настроил автоматический парсинг и форматирование данных из таблиц. Организовал доступ к данным по ролям пользователей. Результат: централизованное информационное пространство, сокращение запросов к аналитикам на 60%.</li>
+                                <li>Достижение: Участвовал в реализации проекта Цифровизация управления образовательной инфраструктурой (ООО ПроШкола) (партнер — Comindware) в роли функционального методолога.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <div class="company-name">ООО «А-Эксперт», ООО «ЭсАрджи-Консалтинг»</div>
+                            <div class="position-name">Руководитель отдела обследований</div>
+                            <div class="period">Январь 2022 — Март 2023 (1 год 3 месяца)</div>
+                        </div>
+                        <div class="description">
+                            <ul>
+                                <li>Управлял командой из 12 экспертов, отвечал за распределение объёмов работ, контроль сроков и качества выпускаемых технических заключений.</li>
+                                <li>Учет работ производил в bitrix24 и 1C. Оптимизировал процессы экспертной оценки, что позволило сократить сроки подготовки технических заданий на 20%.</li>
+                                <li>Анализ исходных данных, предоставленных клиентами, проводился в рамках внутренней экспертной системы на базе Microsoft Excel и специализированного ПО для обработки технической документации (в том числе CAD-файлов и отчётов обследований).</li>
+                                <li>Для структурирования объёмов работ и расчёта трудозатрат использовались шаблоны на основе Excel с встроенными формулами и макросами, а также внутренние регламенты по типовым сценариям экспертных заключений.</li>
+                                <li>Коммерческие предложения (КП) с детализацией объёмов работ формировались на основе аналитических дашбордов, разработанных в Power BI и Excel.</li>
+                                <li>Консультировал менеджеров по продажам по техническим вопросам и участвовал в формировании технической части коммерческих предложений.</li>
+                                <li>Взаимодействовал напрямую с заказчиками по сложным техническим вопросам, обеспечивая прозрачность и согласованность в рамках проектов.</li>
+                                <li>Руководил процессом получения лицензии в области экспертизы промышленной безопасности (ЭПБ): координировал межкомандное взаимодействие, контролировал выполнение требований регулятора, управлял проектом от старта до завершения.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <div class="company-name">Серконс</div>
+                            <div class="position-name">Эксперт промышленной безопасности</div>
+                            <div class="period">Ноябрь 2015 — Октябрь 2021 (6 лет)</div>
+                        </div>
+                        <div class="description">
+                            <ul>
+                                <li>Проводил экспертизу промышленной безопасности (ЭПБ) проектной документации на консервацию, ликвидацию и техническое перевооружение опасных производственных объектов (ОПО).</li>
+                                <li>Разрабатывал обоснования безопасности для ОПО в соответствии с требованиями законодательства.</li>
+                                <li>Осуществлял ЭПБ технических условий на новое оборудование до его ввода в эксплуатацию.</li>
+                                <li>Проводил обследования промышленных зданий и сооружений (включая башенные конструкции) с применением визуально-измерительного контроля (ВИК), неразрушающего контроля (НК) и геодезического мониторинга.</li>
+                                <li>Сократил среднее время согласования отчётов на 20% за счёт стандартизации шаблонов.</li>
+                                <li>Взаимодействовал напрямую с клиентами на всех этапах — от формирования технического задания до утверждения итоговой документации.</li>
+                                <li>Консультировал менеджеров по техническим аспектам направления, участвовал в расчёте стоимости и оценке рентабельности договоров.</li>
+                                <li>Работал с объектами различной сложности — от трансформаторных подстанций до крупных промышленных цехов объёмом свыше 1 млн м³.</li>
+                                <li>Выполнял выездные работы по всей России, включая регионы с экстремальными климатическими и производственными условиями (низкие/высокие температуры, загазованность).</li>
+                                <li>Свободно применял в работе нормативные правовые акты и технические регламенты в области промышленной безопасности и строительного надзора.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Pet-проекты</h2>
+
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-title">Telegram-бот для учета дефектов</div>
+                            <div class="project-desc">
+                                <p>Многофункциональный бот с FSM, интеграцией SQLite, генерацией DOCX-отчетов. Технологии: aiogram 3.x, asyncio, aiosqlite, python-docx.</p>
+                                <a href="https://github.com/Aleksey1989god/U-32mg8-cwOUR-" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Посмотреть на GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-title">Sakuga: Production-Ready Транзакционный Антифрод</div>
+                            <div class="project-desc">
+                                <p>Реализованный с командой в рамках хакатона IT_ONE Cup. Code & Analyst (Трек - Финансовый радар). Отвечал за разработку и аналитику компонентов системы: notifications, ui.</p>
+                                <a href="https://github.com/Aleksey1989god/Sakuga-Hacka" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Посмотреть на GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Образование</h2>
+
+                    <div class="education-card">
+                        <div class="company-name">Школа 21</div>
+                        <div class="period">2026</div>
+                        <div class="description">
+                            Data Science
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="company-name">Московский государственный строительный университет</div>
+                        <div class="period">2013</div>
+                        <div class="description">
+                            Институт гидротехнического и энергетического строительства<br>
+                            Профиль: Промышленное и гражданское строительство, профилизация: САПР
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Сертификаты и курсы</h2>
+
+                    <div class="certificates-grid">
+                        <div class="certificate-card">
+                            <div class="certificate-year">2025</div>
+                            <div class="certificate-title">Электронный курс Process Mining</div>
+                            <div class="certificate-org">АНО ДПО «Корпоративный университет Сбербанка»</div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-year">2025</div>
+                            <div class="certificate-title">Искусственный интеллект</div>
+                            <div class="certificate-org">BootcampLabs, «LLM на примере GigaChat, AI - агенты, Создание ИТ- сервиса»</div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-year">2025</div>
+                            <div class="certificate-title">2gis Хакатон</div>
+                            <div class="certificate-org">ООО "Дубльгис", Городские данные — умный город своими руками</div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-year">2025</div>
+                            <div class="certificate-title">Хакатон IT_ONE Cup. Code & Analyst</div>
+                            <div class="certificate-org">«Долина Талантов», Финансовый радар. Разработка сервиса для анализа транзакций в реальном времени.</div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-year">2023</div>
+                            <div class="certificate-title">Разработка кросс-платформенных мобильных приложений на Flutter для iOS и Android</div>
+                            <div class="certificate-org">ФГБО УВО "Уфимский государственный нефтяной технический университет"</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Навыки</h2>
+                    <div class="skills-container">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">aiogram</span>
+                        <span class="skill-tag">aiosqlite</span>
+                        <span class="skill-tag">pandas</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">PyCharm</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Gitlab</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Docker-compose</span>
+                        <span class="skill-tag">statsmodels</span>
+                        <span class="skill-tag">sklearn</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Линейная регрессия (Linear regression)</span>
+                        <span class="skill-tag">Логистическая регрессия (Logistic regression)</span>
+                        <span class="skill-tag">Visual Studio Code</span>
+                        <span class="skill-tag">LLM</span>
+                        <span class="skill-tag">Архитектура Transformer</span>
+                        <span class="skill-tag">AI-агенты</span>
+                        <span class="skill-tag">Аналитическое мышление</span>
+                        <span class="skill-tag">Навыки коммуникации с нетехническими специалистами</span>
+                        <span class="skill-tag">Математический анализ</span>
+                        <span class="skill-tag">Теория вероятностей</span>
+                        <span class="skill-tag">Математическая статистика</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">MS Excel</span>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Знание языков</h2>
+                    <div class="about-text">
+                        <p>Русский — Родной</p>
+                        <p>Английский — А2 — Элементарный</p>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Опыт вождения</h2>
+                    <div class="about-text">
+                        <p>Права категории A, B</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- English Version -->
+    <div id="lang-en" class="lang-content">
+        <div class="header">
+            <div class="photo-container">
+                <div class="photo-placeholder">
+                    <img src="https://raw.githubusercontent.com/Aleksey1989god/resume/main/images/avatar.jpg" alt="Alexey Korolyov" style="width:100%; height:100%; border-radius: 50%; object-fit: cover;">
+                </div>
+            </div>
+            <h1>Alexey Korolyov</h1>
+            <div class="position">System Analyst / Data Scientist</div>
+
+            <div class="contact-bar">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Moscow, Bratislavskaya metro station</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-birthday-cake"></i>
+                    <span>35 years old, born December 24, 1989</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+79031899298">+7 (903) 189-92-98</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:gid89@inbox.ru">gid89@inbox.ru</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-telegram"></i>
+                    <a href="https://t.me/aleksey1989god" target="_blank">@aleksey1989god</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/Aleksey1989god" target="_blank">GitHub</a>
                 </div>
             </div>
 
@@ -703,9 +769,10 @@
                 <section class="section">
                     <h2 class="section-title">About Me</h2>
                     <div class="about-text">
-                        <p>Currently undergoing advanced training at School 21 (Sber) in the Data Science program with a focus on practical application of ML/DL, participation in hackathons and digital championships.</p>
-                        <p>Self-studying Transformers, LLM, VLM, Docker, developing chatbots and experimenting with model fine-tuning. Participant in hackathons and competitions, integrating an ML model into my Telegram bot with implementation of retraining within the service.</p>
-                        <p>Active lifestyle: boxing, running, mountaineering, trekking. Valid driving license categories A, B.</p>
+                        <p>Male, 35 years old, born December 24, 1989. Living in Moscow, Bratislavskaya metro station. Citizenship: Russia, work permit: Russia. Not ready to relocate, ready for occasional business trips.</p>
+                        <p>Currently studying at School 21 (Sber) in the Data Science program. Have practical experience with the following tools and technologies: Python, SQL, Pandas, PostgreSQL, Docker, Power BI, MS Excel, scikit-learn, NumPy, matplotlib, seaborn.</p>
+                        <p>Self-studying Transformers, LLM, VLM, writing asynchronous Telegram chatbots. Participant in hackathons and championships: 2gis hackathon (Track - Urban Data - Smart City with Your Own Hands), IT_ONE Cup. Code & Analyst (Track - Financial Radar).</p>
+                        <p>Training and integrating sberbank-ai/ruT5-base model into my Telegram bot with implementation of retraining within the service. Active lifestyle: running, mountaineering, trekking. Valid driving license categories A, B.</p>
                     </div>
                 </section>
 
@@ -720,22 +787,59 @@
                         </div>
                         <div class="description">
                             <ul>
-                                <li>Developed and implemented a Telegram bot for defect tracking at construction sites, replacing paper reports</li>
-                                <li>Gathered requirements from engineers, foremen and project managers</li>
-                                <li>Designed data entry logic through step-by-step interface (FSM)</li>
-                                <li>Implemented data export to DOCX using python-docx, automating report preparation</li>
-                                <li>Enabled upload of up to 5 photos per defect and input validation</li>
-                                <li>Result: reduced time for defect statements preparation by 40%, decreased data transfer errors</li>
-                                <li>Created multifunctional Telegram bot as information hub for employees of different departments (finance, legal, construction)</li>
-                                <li>Integrated bot with Google Sheets via API (gspread) to provide current metrics</li>
-                                <li>Configured automatic parsing and formatting of data from tables</li>
-                                <li>Organized data access based on user roles</li>
-                                <li>Result: centralized information space, reduced requests to analysts by 60%</li>
-                                <li>Achievement: Participated in implementation of Educational Infrastructure Management Digitalization project (ProShkola LLC) (partner - Comindware) as functional methodologist</li>
+                                <li>Developed and implemented Power BI dashboards for visualizing the number of defects identified during facility acceptance, as ordered by the concessionaire. Collected requirements from technical specialists and management, designed data model and implemented interactive visualizations: time dynamics, distribution by types, locations and contractors, rating of problematic areas. Provided filtering and detailing by projects and construction stages.</li>
+                                <li>Result: operational quality control of works, reduced time for defect situation analysis by 30% and increased transparency of interaction with contractors.</li>
+                                <li>Developed and implemented a Telegram bot for defect tracking at construction sites, replacing paper reports. Collected requirements from engineers, foremen and project managers. Designed data entry logic through step-by-step interface (FSM).</li>
+                                <li>Implemented data export to DOCX using python-docx, automating report preparation. Built data collection and enrichment pipeline: users upload defect images + text → data saved in SQLite → exported to structured .docx (via python-docx).</li>
+                                <li>Enabled upload of up to 5 photos per defect and input validation. Result: reduced time for defect statements preparation by 40%, decreased data transfer errors.</li>
+                                <li>Created multifunctional Telegram bot as information hub for employees of different departments (finance, legal, construction). Integrated bot with Google Sheets via API (gspread) to provide current metrics.</li>
+                                <li>Configured automatic parsing and formatting of data from tables. Organized data access based on user roles. Result: centralized information space, reduced requests to analysts by 60%.</li>
+                                <li>Achievement: Participated in implementation of Educational Infrastructure Management Digitalization project (ProShkola LLC) (partner - Comindware) as functional methodologist.</li>
                             </ul>
                         </div>
                     </div>
 
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <div class="company-name">A-Expert LLC, SRG-Consulting LLC</div>
+                            <div class="position-name">Head of Survey Department</div>
+                            <div class="period">January 2022 — March 2023 (1 year 3 months)</div>
+                        </div>
+                        <div class="description">
+                            <ul>
+                                <li>Managed team of 12 experts, responsible for work distribution, deadline control and quality of technical reports.</li>
+                                <li>Work accounting in bitrix24 and 1C. Optimized expert evaluation processes, reducing technical assignment preparation time by 20%.</li>
+                                <li>Analysis of initial data provided by clients was conducted within internal expert system based on Microsoft Excel and specialized software for technical documentation processing (including CAD files and survey reports).</li>
+                                <li>For work structuring and labor cost calculation, used Excel-based templates with built-in formulas and macros, as well as internal regulations for standard expert report scenarios.</li>
+                                <li>Commercial proposals with work detail were formed based on analytical dashboards developed in Power BI and Excel.</li>
+                                <li>Consulted sales managers on technical issues and participated in forming technical part of commercial proposals.</li>
+                                <li>Interacted directly with customers on complex technical issues, ensuring transparency and consistency within projects.</li>
+                                <li>Managed process of obtaining industrial safety expertise license: coordinated inter-team interaction, controlled regulator requirements fulfillment, managed project from start to completion.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <div class="company-name">Sercons</div>
+                            <div class="position-name">Industrial Safety Expert</div>
+                            <div class="period">November 2015 — October 2021 (6 years)</div>
+                        </div>
+                        <div class="description">
+                            <ul>
+                                <li>Conducted industrial safety expertise (IBE) of project documentation for conservation, liquidation and technical re-equipment of hazardous production facilities (HPF).</li>
+                                <li>Developed safety justifications for HPF in accordance with legal requirements.</li>
+                                <li>Performed IBE of technical conditions for new equipment before commissioning.</li>
+                                <li>Conducted surveys of industrial buildings and structures (including tower structures) using visual inspection, non-destructive testing and geodetic monitoring.</li>
+                                <li>Reduced average report approval time by 20% through template standardization.</li>
+                                <li>Interacted directly with clients at all stages - from technical assignment formation to final documentation approval.</li>
+                                <li>Consulted managers on technical aspects, participated in cost calculation and contract profitability assessment.</li>
+                                <li>Worked with objects of varying complexity - from transformer substations to large industrial workshops with volume over 1 million m³.</li>
+                                <li>Performed field work throughout Russia, including regions with extreme climatic and production conditions (low/high temperatures, gas contamination).</li>
+                                <li>Freely applied regulatory legal acts and technical regulations in industrial safety and construction supervision.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </section>
 
                 <section class="section">
@@ -745,18 +849,18 @@
                         <div class="project-card">
                             <div class="project-title">Telegram Bot for Defect Tracking</div>
                             <div class="project-desc">
-                                <p>Multifunctional bot with FSM, SQLite integration, DOCX report generation. Technologies: aiogram 3.x, asyncio, aiosqlite, python-docx, gspread.</p>
-                                <a href="https://github.com/Aleksey1989god/U-32mg8-cw0UR-" target="_blank" class="project-link">
+                                <p>Multifunctional bot with FSM, SQLite integration, DOCX report generation. Technologies: aiogram 3.x, asyncio, aiosqlite, python-docx.</p>
+                                <a href="https://github.com/Aleksey1989god/U-32mg8-cwOUR-" target="_blank" class="project-link">
                                     <i class="fab fa-github"></i> View on GitHub
                                 </a>
                             </div>
                         </div>
 
                         <div class="project-card">
-                            <div class="project-title">Filter Tree UI - Logical Filter Constructor</div>
+                            <div class="project-title">Sakuga: Production-Ready Transactional Anti-Fraud</div>
                             <div class="project-desc">
-                                <p>Web application for creating and managing logical filter trees with AND/OR operators support, OpenAPI schemas integration and real-time filter testing capability.</p>
-                                <a href="https://github.com/Aleksey1989god/v0-filter-tree-ui" target="_blank" class="project-link">
+                                <p>Implemented with team during IT_ONE Cup. Code & Analyst hackathon (Track - Financial Radar). Responsible for development and analytics of system components: notifications, ui.</p>
+                                <a href="https://github.com/Aleksey1989god/Sakuga-Hacka" target="_blank" class="project-link">
                                     <i class="fab fa-github"></i> View on GitHub
                                 </a>
                             </div>
@@ -768,20 +872,19 @@
                     <h2 class="section-title">Education</h2>
 
                     <div class="education-card">
+                        <div class="company-name">School 21</div>
+                        <div class="period">2026</div>
+                        <div class="description">
+                            Data Science
+                        </div>
+                    </div>
+
+                    <div class="education-card">
                         <div class="company-name">Moscow State University of Civil Engineering</div>
                         <div class="period">2013</div>
                         <div class="description">
                             Institute of Hydraulic and Power Engineering Construction<br>
-                            Major: Industrial and Civil Engineering, CAD
-                        </div>
-                    </div>
-                    <div class="education-card">
-                        <div class="company-name">School 21 (Sber) Data Science</div>
-                        <div class="period">2025</div>
-                        <div class="description">
-                            Program:<br>
-                            UNIX Command Line Tools, Syntax&Semantics, OOP skills, Package management, Efficient code practices, <br>
-                            MovieLens Analytics, Pandas, SQL&Pandas, Pandas_SQL& Data Visual, Intro to ML, ML: Advanced
+                            Major: Industrial and Civil Engineering, specialization: CAD
                         </div>
                     </div>
                 </section>
@@ -792,43 +895,32 @@
                     <div class="certificates-grid">
                         <div class="certificate-card">
                             <div class="certificate-year">2025</div>
-                            <div class="certificate-title">2GIS Hackathon</div>
-                            <div class="certificate-org">Track: Urban Data — Smart City with Your Own Hands.</div>
-                        </div>
-
-                        <div class="certificate-card">
-                            <div class="certificate-year">2025</div>
-                            <div class="certificate-title">IT_ONE Cup. Code & Analyst Hackathon</div>
-                            <div class="certificate-org">Track: Service for Real-Time Financial Transaction Analysis with Component-Based Fraud Detection Rule Architecture, Support for Various Processing Algorithms, and Monitoring.</div>
-                        </div>
-
-                        <div class="certificate-card">
-                            <div class="certificate-year">2025</div>
-                            <div class="certificate-title">Artificial Intelligence</div>
-                            <div class="certificate-org">
-                                <p>BootcampLabs</p>
-                                <p>LLM using GigaChat example</p>
-                                <p>AI agents</p>
-                                <p>IT service creation</p>
-                            </div>
-                        </div>
-
-                        <div class="certificate-card">
-                            <div class="certificate-year">2025</div>
-                            <div class="certificate-title">Process Mining</div>
+                            <div class="certificate-title">Electronic Course Process Mining</div>
                             <div class="certificate-org">Sberbank Corporate University</div>
                         </div>
 
                         <div class="certificate-card">
                             <div class="certificate-year">2025</div>
-                            <div class="certificate-title">BPM Project of the Year 2025</div>
-                            <div class="certificate-org">Laureate of competition for ProShkola LLC digitalization project</div>
+                            <div class="certificate-title">Artificial Intelligence</div>
+                            <div class="certificate-org">BootcampLabs, "LLM using GigaChat example, AI agents, IT service creation"</div>
                         </div>
 
                         <div class="certificate-card">
-                            <div class="certificate-year">2021</div>
-                            <div class="certificate-title">Flutter Development</div>
-                            <div class="certificate-org">UGNTU - Cross-platform iOS/Android applications</div>
+                            <div class="certificate-year">2025</div>
+                            <div class="certificate-title">2GIS Hackathon</div>
+                            <div class="certificate-org">DoubleGIS LLC, Urban Data - Smart City with Your Own Hands</div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-year">2025</div>
+                            <div class="certificate-title">IT_ONE Cup. Code & Analyst Hackathon</div>
+                            <div class="certificate-org">Talents Valley, Financial Radar. Development of service for real-time transaction analysis.</div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-year">2023</div>
+                            <div class="certificate-title">Cross-platform Mobile App Development on Flutter for iOS and Android</div>
+                            <div class="certificate-org">Ufa State Petroleum Technological University</div>
                         </div>
                     </div>
                 </section>
@@ -837,22 +929,49 @@
                     <h2 class="section-title">Skills</h2>
                     <div class="skills-container">
                         <span class="skill-tag">Python</span>
-                        <span class="skill-tag">PyTorch</span>
                         <span class="skill-tag">SQL</span>
                         <span class="skill-tag">aiogram</span>
                         <span class="skill-tag">aiosqlite</span>
-                        <span class="skill-tag">Transformers</span>
-                        <span class="skill-tag">LLM / VLM</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">FSM</span>
-                        <span class="skill-tag">asyncio</span>
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">Agile</span>
-                        <span class="skill-tag">Google Sheets API</span>
-                        <span class="skill-tag">Process Mining</span>
-                        <span class="skill-tag">python-docx</span>
+                        <span class="skill-tag">pandas</span>
                         <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">gspread</span>
+                        <span class="skill-tag">PyCharm</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Gitlab</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Docker-compose</span>
+                        <span class="skill-tag">statsmodels</span>
+                        <span class="skill-tag">sklearn</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Linear regression</span>
+                        <span class="skill-tag">Logistic regression</span>
+                        <span class="skill-tag">Visual Studio Code</span>
+                        <span class="skill-tag">LLM</span>
+                        <span class="skill-tag">Transformer Architecture</span>
+                        <span class="skill-tag">AI agents</span>
+                        <span class="skill-tag">Analytical thinking</span>
+                        <span class="skill-tag">Communication with non-technical specialists</span>
+                        <span class="skill-tag">Mathematical analysis</span>
+                        <span class="skill-tag">Probability theory</span>
+                        <span class="skill-tag">Mathematical statistics</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">MS Excel</span>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Languages</h2>
+                    <div class="about-text">
+                        <p>Russian — Native</p>
+                        <p>English — A2 — Elementary</p>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Driving Experience</h2>
+                    <div class="about-text">
+                        <p>Driving license categories A, B</p>
                     </div>
                 </section>
             </div>
